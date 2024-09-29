@@ -1,0 +1,12 @@
+parent* a= new parent   -> then parent wala method print hoga
+
+parent* a=new child     -> then again pointer(parent) wala method print hoga
+                           this is called upcasting
+
+child* a= new child    -> then pointer(child) wala method print hoga
+
+child* a=(child*) new parent -> pointer wala hi method print hoga
+                           this is called downcasting
+
+if we have use virtual keyword before the function(example-> virtual void fun())
+  -> then new keyword ke bagal wale class(object type) ka method print hoga 
