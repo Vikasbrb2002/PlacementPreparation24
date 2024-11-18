@@ -6,7 +6,7 @@ class A{
    string s;
   public:
    void setname(string str){
-       s=str;
+       this->s=str;
    }
    string getname(){
     return s;
